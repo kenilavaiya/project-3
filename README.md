@@ -5,17 +5,17 @@ HTML, CSS project
 
 <br>
 First Do this ...
-
-git fetch origin master
-git merge  master
-
-Then, do this ...
-
-git fetch origin master:tmp
-git rebase tmp
-git push origin HEAD:master
-git branch -D tmp
-
+<br><br>
+git fetch origin master<br>
+git merge  master<br>
+<br><br>
+Then, do this ...<br><br>
+<br><br>
+git fetch origin master:tmp<br>
+git rebase tmp<br>
+git push origin HEAD:master<br>
+git branch -D tmp<br>
+<br>
 Now everything works well.
 <br>
 git error
