@@ -83,6 +83,7 @@ nav {
     font-weight: 400;
 }
 
+
 #right {
     display: flex;
     justify-content: space-between;
@@ -145,12 +146,14 @@ nav {
 #text h2 {
     font-weight: 550;
     margin-bottom: 4px;
+    margin-left: 10px;
 }
 
 #text h4 {
     font-weight: 500;
     color : rgb(202, 200, 200);
     margin-bottom: 4px;
+    margin-left: 10px;
 } 
 
 #button {
@@ -159,4 +162,10 @@ nav {
     margin-right: 10px;
     border: 1.5px solid black;
     border-radius: 50px;
+    transition: all ease-in 0.2s;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
 }
